@@ -1,5 +1,5 @@
 # Trainer
-batch_size: 32
+batch_size: 16
 config : ./configs
 num_workers: 0
 use_bottleneck: True
