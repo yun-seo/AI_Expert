@@ -1,0 +1,23 @@
+# Trainer
+batch_size: 32
+config : ./configs
+num_workers: 0
+use_bottleneck: True
+early_stop: 0
+epoch_based_training: False
+
+# Reproducibility
+seed: 0
+
+# Training related
+n_iter_per_epoch: 100
+n_epoch: 5
+
+# Dataset
+data_dir: './datasets'
+src_domain: ''
+tgt_domain: ''
+
+# Experiments
+exp_name: ''
+exp_dir: './experiments'
