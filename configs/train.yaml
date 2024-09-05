@@ -10,8 +10,8 @@ epoch_based_training: False
 seed: 0
 
 # Training related
-n_iter_per_epoch: 100
-n_epoch: 5
+n_iter_per_epoch: 30
+n_epoch: 10
 
 # Dataset
 data_dir: './datasets'
